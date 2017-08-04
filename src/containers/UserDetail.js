@@ -6,8 +6,6 @@ import { bindActionCreators } from 'redux';
 //import router Link
 import { Link } from 'react-router-dom';
 
-
-
 class UserDetail extends Component {
 
   render() {
@@ -62,19 +60,16 @@ function mapStateToProps(state) {
   };
 }
 
-
 /*
-
 You will need to create a mapDispatchToProps function here and
 return the action creator selectAccount - HINT: see the UserList
 component.
-
 */
 function mapDispatchToProps(dispatch) {
-    return bindActionCreators({
-        selectAccount: selectAccount
-    }, dispatch)
+  return bindActionCreators({
+    selectAccount: selectAccount, 
+    selectUser: selectUser
+  }, dispatch)
 }
-
 
 export default connect(mapStateToProps,  mapDispatchToProps)(UserDetail);

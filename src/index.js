@@ -12,7 +12,7 @@ import reducers from './reducers';
 
 //import styles
 import './styles/index.css';
-// import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 //component imports
 import App from './components/App';
