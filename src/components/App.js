@@ -2,14 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/App.css';
 
-
 //import components and containers
-
 
 class App extends Component {
   render() {
     return (
-
       <div className="main">
         <div className= "jumbotron">
           <h1 className= "display-3">BankShot</h1>
@@ -21,8 +18,6 @@ class App extends Component {
             </p>
           </div>
       </div>
-
-
     );
   }
 }

@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-
 import { connect } from 'react-redux';
 import { withdrawFunds } from '../actions/index.js'
 import { bindActionCreators } from 'redux';
@@ -26,7 +25,7 @@ class Transaction extends React.Component {
   render() {
     return (
       <div>
-        <Button color="danger" onClick={this.toggle}>Withdraw</Button>
+        <Button color="danger" onClick={this.toggle}>Withdraw Funds</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Make a Withdrawal</ModalHeader>
           <ModalBody>

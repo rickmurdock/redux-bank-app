@@ -27,7 +27,6 @@ class UserDetail extends Component {
             onClick={() => this.props.selectAccount(account)}
             to={`/users/${id}/${account.id}`}>{account.accountType}</Link>
         </div>
-
       )
     })
     return (
@@ -40,14 +39,11 @@ class UserDetail extends Component {
               <div>{this.props.user.email}</div>
               <div>{this.props.user.phone}</div>
               <div>{this.props.user.address}</div>
-
             </div>
             {accounts}
           </div>
           <Link className="btn btn-primary" to="/users" >Back to List of Users</Link>
         </div>
-
-
       </div>
     );
   }
