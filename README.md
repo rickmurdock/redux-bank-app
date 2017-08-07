@@ -8,15 +8,15 @@ Create an application using React, React Router v4, and Redux to mimic online ba
 
 > bank-app-starter-files-1.zip (6 KB)
 
-To get started you will need to use `create-react-app` to quickly scaffold a project. You should migrate your `components` into a components folder in the `src` directory and the styles into a `styles` folder in the `src` directory. Link up all pages to make sure they working and test using `npm run start` in the console, use Ctrl+c to exit.
+* To get started you will need to use `create-react-app` to quickly scaffold a project. You should migrate your `components` into a components folder in the `src` directory and the styles into a `styles` folder in the `src` directory. Link up all pages to make sure they working and test using `npm run start` in the console, use Ctrl+c to exit.
 
-You will need use `npm install --save redux`, `npm install --save react-redux`, and `npm install --save react-router-dom` in the terminal to save Redux to your project dependencies and make it available for import.
+* You will need use `npm install --save redux`, `npm install --save react-redux`, and `npm install --save react-router-dom` in the terminal to save Redux to your project dependencies and make it available for import.
 
-In your `index.js` file in your `src` directory, you will need to copy and paste the contents of the `index.js` file from the **starter files**. This will set up your router and Redux store. Please take note of the way in which this file is set up and how the Router is nested within the `Provider` from Redux. This is the only way for a router to work correctly with Redux.
+* In your `index.js` file in your `src` directory, you will need to copy and paste the contents of the `index.js` file from the **starter files**. This will set up your router and Redux store. Please take note of the way in which this file is set up and how the Router is nested within the `Provider` from Redux. This is the only way for a router to work correctly with Redux.
 
-You will need to create a `data` folder and you should use the `users.js` from the **starter_files** and place it inside of the `data` folder.
+* You will need to create a `data` folder and you should use the `users.js` from the **starter_files** and place it inside of the `data` folder.
 
-You will need to create `containers`, `actions`, and `reducers` folders as well. You will need to add the corresponding files from the starter files to the folders in your application (for example actions/index.js in the starter files will need to be copied or moved into src/actions/index.js in your project). **Be sure to look at these files for hints and placement of certain requirements.**
+* You will need to create `containers`, `actions`, and `reducers` folders as well. You will need to add the corresponding files from the starter files to the folders in your application (for example actions/index.js in the starter files will need to be copied or moved into src/actions/index.js in your project). **Be sure to look at these files for hints and placement of certain requirements.**
 
 * You should have the following separate components:
 
